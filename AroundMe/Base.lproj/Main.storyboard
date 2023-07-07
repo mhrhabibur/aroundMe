@@ -85,6 +85,9 @@
                             <constraint firstItem="tCf-vf-w1O" firstAttribute="leading" secondItem="7kd-TG-tBf" secondAttribute="leading" id="pOv-lp-cOX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="tCf-vf-w1O" id="mAc-ld-4ps"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LTQ-Ln-TvU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
